@@ -1,0 +1,112 @@
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: whitesmoke;
+    background-image: url(milkbg.jpeg) ;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Headings */
+ h1{
+    color: black;
+    font-family: cursive;
+ }
+ h2{
+    color: black;
+ }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button img {
+    width: 14px;
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Clear All Data Button */
+  #clear-button {
+    width: 100%;
+    background-color: #dc3545;
+    margin-top: 10px;
+  }
+  
+  /* Clear All Data Button Hover Effect */
+  #clear-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Summary and List Styles */
+  #summary,
+  #supply-list {
+    margin-top: 20px;
+  }
+  
+  #summary p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #summary span {
+    color: white;
+  }
+  
+  #supply-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #supply-list li {
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    input,
+    button {
+      font-size: 14px;
+    }
+  }
+  
